@@ -41,3 +41,9 @@ git branch -D teste (deleta o branch teste do repositório local)
 git pull origin master (puxa do repositorio remoto para o local no branch master)
 git clone https://github.com/wernerAlecxander/modulogit (clona do remoto para o local. Vale para qualquer repositorio)
 git clone --progress https://github.com/werneralecxander/jscript c:/projetojs (clona do remoto para o local na pasta c:/projetojs)
+--------------------------------
+git branch -m master main (muda o nome do branch)
+git fetch origin 
+git branch -u origin/main main
+git remote set-head origin -a
+------------------------------------- COMANDOS PARA MUDAR E ATUALIZAR (no remoto) MUDANÇA DE NOME DE BRANCH (no local)
