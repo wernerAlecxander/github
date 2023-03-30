@@ -33,12 +33,12 @@ ssh -T git@github.com (conectar com git para usar conexão via cha priv)
 git remote add origin https://github.com/wernerAlecxander/modulogit.git
 git remote -v (ver repositorios remotos)
 git remote remove origin
-git push -u origin master (enviar do repositorio local para o remoto)
-git push origin master
+git push -u origin main (enviar do repositorio local para o remoto)
+git push origin main
 git revert --no-edit 7c8d4ec56q18ab30h7cd3b4c4da875ef29a34b24f1 (código hexadecimal do commit para reverter)
 git push origin :teste (deleta o branch teste do repositório remoto)
 git branch -D teste (deleta o branch teste do repositório local)
-git pull origin master (puxa do repositorio remoto para o local no branch master)
+git pull origin main (puxa do repositorio remoto para o local no branch master)
 git clone https://github.com/wernerAlecxander/modulogit (clona do remoto para o local. Vale para qualquer repositorio)
 git clone --progress https://github.com/werneralecxander/jscript c:/projetojs (clona do remoto para o local na pasta c:/projetojs)
 --------------------------------
