@@ -46,3 +46,4 @@ git fetch origin
 git branch -u origin/master master
 git remote set-head origin -a
 ------------------------------------- COMANDOS PARA MUDAR E ATUALIZAR (no remoto) MUDANÇA DE NOME DE BRANCH (no local)
+$ git config --global init.defaultbranch master (configura padrão do nome do branch inicial do repositório)
