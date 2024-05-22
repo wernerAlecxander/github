@@ -50,5 +50,8 @@ $ git config --global init.defaultbranch master (configura padrão do nome do br
 ___________________________________________
 git commit --amend --no-edit (altera o commit anterior)
 git push --force (altera a linha do tempo do repositório github)
+git rm -r node_modules/
 ----------------------------------------------------------------
 Update comandosGit.txt
+----------------------------------
+
